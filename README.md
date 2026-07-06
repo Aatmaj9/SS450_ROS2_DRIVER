@@ -241,7 +241,7 @@ A companion driver for the Omniscan 450 **forward-scan (FS)** variant is availab
 
 ## Author
 
-**Aatmaj Bhayani** — [Marine Autonomous Vehicles Lab (MAV-Lab)](https://mavlab.iitm.ac.in/), IIT Madras
+**Aatmaj Bhayani** — Marine Autonomous Vehicles Lab (MAV-Lab), IIT Madras
 
 ## License
 
@@ -249,6 +249,6 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-- [Monika Roznere](https://monikaroznere.com) and the Marine Robotics Lab, Binghamton University, for the original ROS 1 [`omniscan_sidescan`](https://github.com/BinghamtonUniversity/omniscan_sidescan) package that this driver is based on
+- [Monika Roznere](https://monikaroznere.com) and the Marine Robotics Lab, Binghamton University, for the original ROS 1 [`omniscan_sidescan`](https://github.com/bing-marine-robotics-lab/omniscan_sidescan) package that this driver is based on
 - [Cerulean Sonar](https://ceruleansonar.com/) for the Omniscan 450 hardware and Ping Protocol
 - [Blue Robotics](https://bluerobotics.com/) for the `ping-python` / `brping` library foundation
