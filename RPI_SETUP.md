@@ -1,4 +1,4 @@
-# Raspberry Pi 5 Ethernet Configuration for Ethernet Devices on Ethernet Switch
+# Raspberry Pi 5 Ethernet Configuration for Sensors Connected via an Ethernet Switch
 
 ## Platform
 
@@ -190,7 +190,7 @@ eth0     ethernet  connected  eth_switch
 
 ---
 
-# Step 9: Test Sonar Connectivity
+# Step 9: Test Sensor Connectivity
 
 Ping Sonar 1:
 
