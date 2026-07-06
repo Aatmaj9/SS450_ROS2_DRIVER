@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omniscan 450 Waterfall</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Omniscan 450 Sidescan Waterfall</h1>
+    <div id="status-bar">
+      <span id="ros-status" class="status-dot disconnected">ROS: disconnected</span>
+      <span id="ping-info">—</span>
+      <button id="clear-btn" type="button">Clear</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Port (left)</h2>
+      <canvas id="port-canvas"></canvas>
+      <div class="axis-label">Range →</div>
+    </section>
+    <section class="panel">
+      <h2>Starboard (right)</h2>
+      <canvas id="starboard-canvas"></canvas>
+      <div class="axis-label">Range →</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Topic: <code>/omniscan450/range</code> ·
+      Web: port <span id="web-port">9001</span> ·
+      Rosbridge: <code id="rosbridge-url">—</code>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

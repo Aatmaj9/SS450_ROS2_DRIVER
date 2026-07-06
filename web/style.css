@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f1419;
+  color: #e6edf3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #30363d;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#status-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.status-dot::before {
+  content: "● ";
+}
+
+.status-dot.connected {
+  color: #3fb950;
+}
+
+.status-dot.disconnected {
+  color: #f85149;
+}
+
+#clear-btn {
+  background: #21262d;
+  border: 1px solid #30363d;
+  color: #e6edf3;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#clear-btn:hover {
+  background: #30363d;
+}
+
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.panel h2 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #8b949e;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+  background: #010409;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+}
+
+.axis-label {
+  font-size: 0.75rem;
+  color: #6e7681;
+  text-align: center;
+}
+
+footer {
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid #30363d;
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+footer code {
+  color: #79c0ff;
+}

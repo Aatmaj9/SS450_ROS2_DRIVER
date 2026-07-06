@@ -1,0 +1,10 @@
+/**:
+  ros__parameters:
+    speed_of_sound_mm: 1482000
+    start_mm: 0
+    length_mm: 6000
+    msec_per_ping: 0
+    pulse_len_percent: 0.002
+    filter_duration_percent: 0.0015
+    gain_index: -1
+    num_results: 600
