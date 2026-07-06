@@ -95,7 +95,7 @@ Clone this repository into your ROS 2 workspace `src` directory:
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/<your-org>/SS450_ros2_driver.git
+git clone https://github.com/Aatmaj9/SS450_ros2_driver.git
 cd ~/ros2_ws
 ```
 
