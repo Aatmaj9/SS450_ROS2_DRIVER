@@ -235,7 +235,7 @@ Defaults are defined in `config/omniscan450_params.yaml` and `config/omniscan450
 
 ## Related projects
 
-A companion driver for the Omniscan 450 **forward-scan (FS)** variant is available separately as `FS450_ros2_driver`.
+A driver for the Cerulean Omniscan 450 front scan is available at [cerulean-omniscan450-frontscan-ros2-driver](https://github.com/Aatmaj9/cerulean-omniscan450-frontscan-ros2-driver).
 
 ---
 
